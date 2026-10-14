@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: spring-boot-app
-        image: maven-docker-agent:latest
+        image: kaushik2607/ultimate-cicd:17
         imagePullPolicy: Never
         ports:
         - containerPort: 8080
